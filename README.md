@@ -9,7 +9,7 @@ useReducer と useEffect フックを使って非同期処理をするサンプ�
 ## feature
 
 直接 useEffect を使うことはなくて、 useCmd を使うことで
- reducer で非同期関数やその他必要なものを effect に set すれば勝手に非同期が走る
+ reducer で非同期関数やその他必要なものを effect に set すれば勝手に非同期処理が走る
 
 ```ts
 // reducer
